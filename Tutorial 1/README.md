@@ -1,1 +1,1 @@
-# T1 - Basic and descriptive statistics
+# Tutorial 1 - Basic and descriptive statistics
