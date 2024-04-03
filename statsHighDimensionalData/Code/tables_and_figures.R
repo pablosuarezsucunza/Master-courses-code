@@ -1,17 +1,3 @@
-# Set working directories -------------------------------------------------
-
-if (Sys.getenv("USERNAME") == "pablo"){
-  main_dir <- "G:/.shortcut-targets-by-id/1nlYf4qV6x62wetbvZ9npLs2BDLgwwml3/Stats project"
-} else if (Sys.getenv("USERNAME") == "..."){
-  main_dir <- "..."
-} 
-
-setwd(main_dir)
-data_dir <- paste0(main_dir, "/Data")
-code_dir <- paste0(main_dir, "/Code")
-results_dir <- paste0(main_dir, "/Results")
-
-
 # Load packages -----------------------------------------------------------
 library(tidyverse)
 library(reshape2)

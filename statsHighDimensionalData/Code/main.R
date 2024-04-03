@@ -1,8 +1,8 @@
 # Set working directories -------------------------------------------------
 remove(list=ls())
 
-if (Sys.getenv("USERNAME") == "pablo"){
-  main_dir <- "G:/.shortcut-targets-by-id/1nlYf4qV6x62wetbvZ9npLs2BDLgwwml3/Stats project"
+if (Sys.getenv("USERNAME") == "..."){
+  main_dir <- "..."
 } else if (Sys.getenv("USERNAME") == "..."){
   main_dir <- "..."
 } 
